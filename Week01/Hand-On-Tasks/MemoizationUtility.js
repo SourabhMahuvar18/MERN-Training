@@ -24,9 +24,11 @@ function slowSquare(n) {
 }
 
 const fastSquare = memoization(slowSquare);
-
+let time = new Date().toLocaleTimeString()
 console.log("results by the memoization : ");
-console.log(fastSquare(4)); // slow (computed)
-console.log(fastSquare(4))// fast (cached)
-console.log(fastSquare(4))// fast
+console.log(fastSquare(4) + " executed at "+time); // slow (computed)
+console.log(fastSquare(4) + " executed at "+ time)// fast (cached)
+console.log(fastSquare(4) + " executed at "+time)// fast
+
+
 
