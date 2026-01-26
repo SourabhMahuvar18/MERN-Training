@@ -91,6 +91,6 @@ let nums4 = [10, 20, 30];
 
 console.log(nums4.includes(20));// true
 nums4.includes(40); // false
-console.log(nums4.indexOfkjj(20));
+console.log(nums4.indexOf(20));
 
 
