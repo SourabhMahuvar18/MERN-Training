@@ -87,6 +87,10 @@ const grouped1 = ArrayUtility.groupBy(numbers, (n) =>
   n % 2 === 0 ? "even" : "odd",
 );
 
-console.log("\ngroupBy function test " );
+console.log("\ngroupBy function test ");
 console.log(grouped1);
 
+// How does the groupBy works ??
+
+// Answer  = I iterate over the array, compute a grouping key using a callback function, use an object as a hash map where each key maps to an array, 
+// initialize the group if it doesn’t exist, and push the item into the corresponding group. Finally, I return the grouped object.
