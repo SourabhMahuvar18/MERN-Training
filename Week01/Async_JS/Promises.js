@@ -118,7 +118,7 @@ const p31 = Promise.reject("Fail 1");
 const p32 = Promise.resolve("Success 2");
 const p33 = Promise.reject("Fail 3");
 
-Promise.any([p31, p32, p33])
+Promise.any([p31, p32, p3])
   .then(result => console.log(result)) // "Success 2"
   .catch(err => console.error("All failed:", err));
 
