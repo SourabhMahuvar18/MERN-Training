@@ -16,7 +16,7 @@ function customIterator(start = 0 ,end = Infinity , step = 1){
         }
     }
     return rangeIterator;
-}
+}ywsfh
 
 const iter = customIterator(1,20,2);
 let result = iter.next(); // caling the next function

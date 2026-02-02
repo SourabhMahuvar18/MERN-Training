@@ -46,17 +46,17 @@ function deepClone(input, map = new WeakMap()) {
 }
 
 // // currently works for only object and array - simple test case
-// const obj = { a: 1, b: { c: 2 } };
-// const clone = deepClone(obj);
-// console.log(obj);
-// console.log(clone);
-// console.log(clone.b === obj.b  );
-// false ✅
+const obj = { a: 1, b: { c: 2 } };
+const clone = deepClone(obj);
+console.log(obj);
+console.log(clone);
+console.log(clone.b === obj.b );
+// false  sdSkgjkkkkkj jkj
 
-const a = {};
-a.self = a;
+// const a = {};
+// a.self = a;
 
-const clone = deepClone(a);
-clone.self === clone; // true
+// const clone = deepClone(a);
+// clone.self === clone; // true
 
-module.exports = deepClone;
+export default deepClone;
