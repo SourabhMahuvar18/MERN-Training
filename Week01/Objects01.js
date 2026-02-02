@@ -1,4 +1,4 @@
-// litral pattern for creating the objects
+// litral pattern for creating the objects 
 
 const mySym = Symbol("symbol");
 // const user = {

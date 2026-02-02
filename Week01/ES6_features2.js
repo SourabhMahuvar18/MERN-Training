@@ -1,5 +1,7 @@
 // symbols and there use cases
 
+const { deepStrictEqual } = require("assert");
+
 
 const s1 = Symbol();
 const s2 = Symbol();
@@ -96,6 +98,7 @@ const even = generator();
 // for(const value of even){
 //     console.log(value);
 // }
+
 // What is a generator? - A generator is a special function defined with function* that can pause and 
 // resume execution using yield, and automatically implements both the iterable and iterator protocols.
 

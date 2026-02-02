@@ -52,6 +52,9 @@ for (let i = 0; i < 5; i++) {
     console.log(row);   
 }
 
+console.log("\n\n");
+
+
 /* another pattern
 
               *
@@ -59,6 +62,18 @@ for (let i = 0; i < 5; i++) {
             *****
            *******
 */
+for (let i = n; i >= 1; i--) {
+  let row = "";
+
+  for (let star = 1; star <= 2 * i - 1; star++) {
+    row += "*";
+  }
+  for (let space = 1; space <= n - i; space++) {
+    row += " ";
+  }
+
+  console.log(row);
+}
 
 /*
  1
@@ -116,7 +131,7 @@ console.log("\n\n");
 1 
 2 3 
 4 5 6 
-7 8 9 10eer4
+7 8 9 10
 */
 
 let num = 1;
@@ -155,13 +170,9 @@ for (let i = n; i >= 1; i--) {
   for (let star = 1; star <= 2 * i - 1; star++) {
     row += "*";
   }
-
   console.log(row);
 }
 
-
-
-127565
 
 
 

@@ -130,6 +130,7 @@ newUser.age = 30;
 
 // enhaced object litreals ??
 
+
 // Enhanced object literals are ES6 features that provide shorter and
 // more expressive syntax for defining objects, including property shorthand, 
 // method shorthand, and computed property names.
