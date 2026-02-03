@@ -1,0 +1,11 @@
+/* global css file */
+button {
+  background-color: #213C51;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+button:hover{
+  border: 2px solid #DDAED3;
+}
